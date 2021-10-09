@@ -38,56 +38,75 @@ onload=function(){
                         stat.textContent="Congratulations! "+array[array.length-1]+" is the Winner!";
                         stat.className+="you-won";
                         
-                   
+                        //reloads game if a player tries to click an unchecked box after a winner has been declared
+                   //     document.querySelector('get_squares[0:8]').addEventListener('click',function(){
+                     //       location.reload();
+                       // })
                     }
                     if(cor3==cor4 && cor3==cor5 && cor3!==''){
                         stat.textContent="Congratulations! "+array[array.length-1]+" is the Winner!";
                         stat.className+="you-won";
 
-                   
+                   //     document.queryselector('get_squares[0:8]').addEventListener('click',function(){
+                     //       location.reload();
+                       // })
                     }
                     if(cor6==cor7 && cor6==cor8 && cor6!==''){
                         stat.textContent="Congratulations! "+array[array.length-1]+" is the Winner!";
                         stat.className+="you-won";
 
-                    
+                    //    document.queryselector('get_squares[0:8]').addEventListener('click',function(){
+                      //      location.reload();
+                        //})
                     }
                     if(cor0==cor4 && cor0==cor8 && cor4!==''){
                         stat.textContent="Congratulations! "+array[array.length-1]+" is the Winner!";
                         stat.className+="you-won";
 
-                  
+                  //      document.queryselector('get_squares[0:8]').addEventListener('click',function(){
+                    //        location.reload();
+                      //  })
                     }
                     if(cor2==cor4 && cor2==cor6 && cor2!==''){
                         stat.textContent="Congratulations! "+array[array.length-1]+" is the Winner!";
                         stat.className+="you-won";
 
-                   
+                   //     document.queryselector('get_squares[0:8]').addEventListener('click',function(){
+                     //       location.reload();
+                       // })
                     }
                     if(cor0==cor3 && cor0==cor6 && cor0!==''){
                         stat.textContent="Congratulations! "+array[array.length-1]+" is the Winner!";
                         stat.className+="you-won";
 
-                    
+                    //    document.queryselector('get_squares[0:8]').addEventListener('click',function(){
+                      //      location.reload();
+                        //})
                     }
                     if(cor1==cor4 && cor1==cor7 && cor7!==''){
                         stat.textContent="Congratulations! "+array[array.length-1]+" is the Winner!";
                         stat.className+="you-won";
 
-                     
+                      //  document.queryselector('get_squares[0:8]').addEventListener('click',function(){
+                        //    location.reload();
+                       // })
                     }
                     if(cor2==cor5 && cor2==cor8 && cor2!==''){
                         stat.textContent="Congratulations! "+array[array.length-1]+" is the Winner!";
                         stat.className+="you-won";
 
-                      
+                      //  document.queryselector('get_squares[0:8]').addEventListener('click',function(){
+                       //     location.reload();
+                       // })
                     }
                     if(cor0!==''&&cor1!=='' && cor2!==''&&cor3!=='' && cor4!==''&&cor5!==''&&cor6!==''&&cor7!==''&&cor8!=='')
                     {
                         stat.textContent="It is a Draw!";
                         stat.className+="you-won";
 
-                       
+                        //document.queryselector('get_squares[0:8]').addEventListener('click',function(){
+                          //  location.reload();
+                       // })
                     }
                 }
             }
@@ -100,5 +119,7 @@ onload=function(){
             get_squares[i].classList.remove('hover');
        });
     }  
-   
+    document.querySelector('button').addEventListener('click',function(){
+        location.reload();
+    })
 }            
