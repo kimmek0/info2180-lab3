@@ -99,15 +99,15 @@ onload=function(){
                        //     location.reload();
                        // })
                     }
-                    if(cor0!==''&&cor1!=='' && cor2!==''&&cor3!=='' && cor4!==''&&cor5!==''&&cor6!==''&&cor7!==''&&cor8!=='')
-                    {
-                        stat.textContent="It is a Draw!";
-                        stat.className+="you-won";
+                    // if(cor0!==''&&cor1!=='' && cor2!==''&&cor3!=='' && cor4!==''&&cor5!==''&&cor6!==''&&cor7!==''&&cor8!=='')
+                    // {
+                    //     stat.textContent="It is a Draw!";
+                    //     stat.className+="you-won";
 
                         //document.queryselector('get_squares[0:8]').addEventListener('click',function(){
                           //  location.reload();
                        // })
-                    }
+                   // }
                 }
             }
 
